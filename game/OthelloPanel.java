@@ -473,8 +473,9 @@ public class OthelloPanel extends JPanel {
 						winner = "White";
 					}
 					
-					int answer = JOptionPane.showConfirmDialog(null, winner + " was the winner! Play Again?", "Game Over",JOptionPane.YES_NO_OPTION);
-					 if (answer == 0)
+					JOptionPane.showMessageDialog(null, winner + " was the winner!", "Game Over", JOptionPane.INFORMATION_MESSAGE);
+					 int answer = -1;
+					if (answer == 0)
 					 {
 						 	for (int row = 0; row < 8; row++)
 						 	{
