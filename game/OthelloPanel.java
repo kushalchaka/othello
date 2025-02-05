@@ -2,7 +2,6 @@ package game;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -11,7 +10,6 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import java.awt.Font;
 import java.awt.GridLayout;
-
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -19,9 +17,6 @@ import java.awt.Dimension;
 import java.awt.Color;
 import javax.swing.border.LineBorder;
 import javax.swing.ImageIcon;
-
-
-
 import java.awt.Insets;
 
 public class OthelloPanel extends JPanel {
@@ -31,10 +26,10 @@ public class OthelloPanel extends JPanel {
 	private int width = 600, height = 500;
 	private Board[][] Boards = new Board[8][8];
 	
-	public static ImageIcon OPEN = new ImageIcon("src/images/blank.png");
-	public static ImageIcon BLACK = new ImageIcon("src/images/blackdisc.png");
-	public static ImageIcon WHITE = new ImageIcon("src/images/whitedisc.png");
-	public static ImageIcon LEGAL = new ImageIcon("src/images/legalmarker.png");
+	public static ImageIcon OPEN = new ImageIcon("images/.png");
+	public static ImageIcon BLACK = new ImageIcon("images/black.png");
+	public static ImageIcon WHITE = new ImageIcon("images/white.png");
+	public static ImageIcon LEGAL = new ImageIcon("images/legal.png");
 	ImageIcon currentDiscColor = BLACK;
 	int number = -1;
 	int blackCounter = 0, whiteCounter = 0;
