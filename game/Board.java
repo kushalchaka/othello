@@ -3,7 +3,6 @@ package game;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
-
 public class Board extends JButton {
 	
 
